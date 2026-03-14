@@ -317,7 +317,7 @@ a{text-decoration:none;color:inherit}
 
 .mtab{
   background:none;border:none;
-  color:#6b7ba0;font-size:13px;font-weight:500;
+  color:#6b7ba0;font-size:15px;font-weight:500;
   padding:8px 14px;border-radius:20px;
   white-space:nowrap;transition:all .2s;
 }
@@ -343,14 +343,14 @@ a{text-decoration:none;color:inherit}
   flex-shrink:0;margin-top:2px;
 }
 .step-main{flex:1;min-width:0}
-.step-main h3{font-size:14px;font-weight:600;color:#e2e8f0;margin-bottom:10px}
+.step-main h3{font-size:17px;font-weight:600;color:#e2e8f0;margin-bottom:10px}
 
 /* Select Box */
 .sel-box{
   background:#1a2035;border:1px solid #2a3350;
   border-radius:10px;padding:12px 14px;
   display:flex;align-items:center;justify-content:space-between;
-  cursor:pointer;font-size:14px;color:#6b7ba0;
+  cursor:pointer;font-size:16px;color:#6b7ba0;
   transition:border-color .2s;
 }
 .sel-box:hover{border-color:#3b5298}
@@ -378,27 +378,27 @@ a{text-decoration:none;color:inherit}
 /* Wager Box */
 .wager-box{
   background:#1a2035;border:1px solid #2a3350;
-  border-radius:12px;padding:16px;margin-bottom:20px;
+  border-radius:12px;padding:20px;margin-bottom:24px;
 }
-.wager-head{display:flex;align-items:center;gap:8px;margin-bottom:6px}
-.wager-icon{font-size:18px;color:#f59e0b}
-.wager-head h3{font-size:15px;font-weight:700;color:#f59e0b}
-.wager-sub{font-size:12px;color:#6b7ba0;margin-bottom:14px}
-.wager-list{list-style:none;display:flex;flex-direction:column;gap:10px}
+.wager-head{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.wager-icon{font-size:26px;color:#f59e0b}
+.wager-head h3{font-size:24px;font-weight:700;color:#f59e0b}
+.wager-sub{font-size:17px;color:#6b7ba0;margin-bottom:16px}
+.wager-list{list-style:none;display:flex;flex-direction:column;gap:12px}
 .wager-list li{
-  display:flex;align-items:flex-start;gap:10px;
-  font-size:13px;color:#c8d0e0;line-height:1.4;
+  display:flex;align-items:flex-start;gap:12px;
+  font-size:18px;color:#c8d0e0;line-height:1.5;
 }
 
 .wager-x,.wager-fire{
-  width:18px;height:18px;border-radius:50%;
+  width:22px;height:22px;border-radius:50%;
   border:2px solid #ef4444;flex-shrink:0;margin-top:1px;
   position:relative;
 }
 .wager-x::after{
   content:'\00d7';position:absolute;
   top:50%;left:50%;transform:translate(-50%,-50%);
-  font-size:12px;color:#ef4444;font-weight:700;
+  font-size:14px;color:#ef4444;font-weight:700;
 }
 .wager-fire{
   border-color:#a855f7;
